@@ -1,0 +1,8 @@
+server:
+  port: 80 #http请求默认就是80端口，所以请求时地址栏可以省略不写端口号
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 39.103.129.145:2181
